@@ -1,16 +1,20 @@
-// importo express
+// IMPORTAZIONI
+// express
 const express = require('express');
-
-// importo e avvio dotenv
+//dotenv
 const dotenv = require('dotenv').config();
+// controller
+const postsController = require("./controllers/posts");
 
 // creiamo l'istanza di express
 const app = express();
 
-// usiamo la nostra istanza per creare la rotta principale
+// usiamo la nostra istanza per definire le rotte
 app.get("/", (req, res) => {
-    res.send("<h1>Hello Express!</h1>");
+    res.send("<h1>Benvenuto nel mio blog!</h1>");
 })
+
+app.get("posts", postsController.index);
 
 // avviamo il nostro server mettendolo in ascolto
 app.listen(process.env.PORT || 3001, () => {
