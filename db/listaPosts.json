@@ -2,7 +2,7 @@
     {
         "titolo": "Primo Post",
         "contenuto": "Contenuto del primo post...",
-        "immagine": "url_immagine_1.jpg",
+        "immagine": "homer.jpg",
         "tags": [
             "tag1",
             "tag2",
@@ -12,7 +12,7 @@
     {
         "titolo": "Secondo Post",
         "contenuto": "Contenuto del secondo post...",
-        "immagine": "url_immagine_2.jpg",
+        "immagine": "marge.jpg",
         "tags": [
             "tag4",
             "tag5",
@@ -22,7 +22,7 @@
     {
         "titolo": "Terzo Post",
         "contenuto": "Contenuto del terzo post...",
-        "immagine": "url_immagine_3.jpg",
+        "immagine": "bart.webp",
         "tags": [
             "tag7",
             "tag8",
@@ -32,7 +32,7 @@
     {
         "titolo": "Quarto Post",
         "contenuto": "Contenuto del quarto post...",
-        "immagine": "url_immagine_4.jpg",
+        "immagine": "lisa.webp",
         "tags": [
             "tag10",
             "tag11",
@@ -42,7 +42,7 @@
     {
         "titolo": "Quinto Post",
         "contenuto": "Contenuto del quinto post...",
-        "immagine": "url_immagine_5.jpg",
+        "immagine": "maggie.jpg",
         "tags": [
             "tag13",
             "tag14",

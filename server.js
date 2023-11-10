@@ -9,6 +9,9 @@ const postsController = require("./controllers/posts");
 // creiamo l'istanza di express
 const app = express();
 
+// configuro i file statici
+app.use(express.static("public"));
+
 // usiamo la nostra istanza per definire le rotte
 app.get("/", (req, res) => {
     res.send("<h1>Benvenuto nel mio blog!</h1>");
