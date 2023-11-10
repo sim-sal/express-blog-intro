@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
     res.send("<h1>Benvenuto nel mio blog!</h1>");
 })
 
-app.get("posts", postsController.index);
+app.get("/posts", postsController.index);
 
 // avviamo il nostro server mettendolo in ascolto
 app.listen(process.env.PORT || 3001, () => {
