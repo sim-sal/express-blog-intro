@@ -1,52 +1,52 @@
 [
     {
-        "titolo": "Primo Post",
-        "contenuto": "Contenuto del primo post...",
+        "titolo": "Homer Simpson",
+        "contenuto": "Homer Jay Simpson è il protagonista della serie televisiva a cartoni animati statunitense I Simpson, nonché padre dell'omonima famiglia, creato e disegnato dall'autore di fumetti Matt Groening.",
         "immagine": "homer.jpg",
         "tags": [
-            "tag1",
-            "tag2",
-            "tag3"
+            "#stupidità",
+            "#pigrizia",
+            "#alcolismo"
         ]
     },
     {
-        "titolo": "Secondo Post",
-        "contenuto": "Contenuto del secondo post...",
+        "titolo": "Marge Simpson",
+        "contenuto": "Marjorie Jacqueline Bouvier Simpson, conosciuta semplicemente come Marge Simpson, è un personaggio immaginario ed uno dei protagonisti della serie cartoon I Simpson.",
         "immagine": "marge.jpg",
         "tags": [
-            "tag4",
-            "tag5",
-            "tag6"
+            "#ingenua",
+            "#credulona",
+            "#amorevole"
         ]
     },
     {
-        "titolo": "Terzo Post",
-        "contenuto": "Contenuto del terzo post...",
+        "titolo": "Bart Simpson",
+        "contenuto": "Bartholomew JoJo Simpson, conosciuto semplicemente come Bart Simpson, è un personaggio immaginario ed uno dei protagonisti della serie televisiva a cartoni animati statunitense I Simpson.",
         "immagine": "bart.webp",
         "tags": [
-            "tag7",
-            "tag8",
-            "tag9"
+            "#vivacità",
+            "#ribelle",
+            "#senzarispetto"
         ]
     },
     {
-        "titolo": "Quarto Post",
-        "contenuto": "Contenuto del quarto post...",
+        "titolo": "Lisa Simpson",
+        "contenuto": "Lisa Marie Simpson, conosciuta semplicemente come Lisa Simpson è un personaggio immaginario ed uno dei protagonisti della serie animata televisiva I Simpson. Negli Stati Uniti la persona che le dà voce è la celebre doppiatrice Yeardley Smith; invece in Italia è Monica Ward.",
         "immagine": "lisa.webp",
         "tags": [
-            "tag10",
-            "tag11",
-            "tag12"
+            "#intelligente",
+            "#gentile",
+            "#ambientalista"
         ]
     },
     {
-        "titolo": "Quinto Post",
-        "contenuto": "Contenuto del quinto post...",
+        "titolo": "Maggie Simpson",
+        "contenuto": "Margaret Evelyn Lenny Simpson, conosciuta semplicemente come Maggie Simpson, è un personaggio immaginario ed è uno dei protagonisti della serie animata I Simpson. È la più piccola componente della famiglia Simpson, figlia di Homer e Marge e sorella minore di Bart e Lisa.",
         "immagine": "maggie.jpg",
         "tags": [
-            "tag13",
-            "tag14",
-            "tag15"
+            "#gattona",
+            "#ciucciotto",
+            "#killerinstinct"
         ]
     }
 ]
