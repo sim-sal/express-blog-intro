@@ -30,7 +30,10 @@ function index(req, res) {
             res.send(html.join(""));
         },
         json: () => {
-            res.type("json").send(mieiPosts);
+            res.type("json").send({
+                totalPosts: mieiPosts.length,
+                list: mieiPosts
+            });
         }
     })
 }

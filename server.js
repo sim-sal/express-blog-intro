@@ -3,8 +3,9 @@
 const express = require('express');
 //dotenv
 const dotenv = require('dotenv').config();
-// controller
+// controllers
 const postsController = require("./controllers/posts");
+const homeController = require("./controllers/home");
 
 // creiamo l'istanza di express
 const app = express();
@@ -13,9 +14,9 @@ const app = express();
 app.use(express.static("public"));
 
 // usiamo la nostra istanza per definire le rotte
-app.get("/", (req, res) => {
-    res.send("<h1>Benvenuto nel mio blog!</h1>");
-})
+app.get("/", homeController.index);
+app.get("/about", homeController.about);
+app.get("/contacts", homeController.contacts);
 
 app.get("/posts", postsController.index);
 
