@@ -14,7 +14,7 @@ function index(req, res) {
         html: () => {
             let htmlContent = fs.readFileSync(path.resolve(__dirname, "../index.html"), "utf-8");
             let headContent = fs.readFileSync(path.resolve(__dirname, "../head.html"), "utf-8");
-            const sottitolo = "Questo è il mio BLOG!"
+            const sottitolo = "Lasciate ogni speranza o voi che entrate..."
 
             htmlContent = htmlContent.replace("{{ sottotitolo }}", sottitolo);
             htmlContent = htmlContent.replace("@head", headContent);
